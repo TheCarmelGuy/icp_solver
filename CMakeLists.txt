@@ -17,5 +17,5 @@ add_definitions(${PCL_DEFINITIONS})
 list(REMOVE_ITEM PCL_LIBRARIES "vtkproj4")
 
 
-add_executable (icp_test src/icp_main.cpp src/icp_solver.cpp src/icp_solver.hpp)
+add_executable (icp_test src/environment.cpp src/icp_core/icp_solver.cpp src/icp_core/icp_solver.hpp src/render/render.cpp src/render/render.h)
 target_link_libraries (icp_test  ${PCL_LIBRARIES})

@@ -2,8 +2,6 @@ Simple Implementation of ICP
 -----------------------------
 
 
-
-
 ## Core Algorithm
 
 1. Uniformaly Random sample both source and target point clouds 
