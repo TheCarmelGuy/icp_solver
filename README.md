@@ -1,4 +1,4 @@
-Simple Implementation of ICP
+ICP w/ Unknown Correspondences
 -----------------------------
 
 
